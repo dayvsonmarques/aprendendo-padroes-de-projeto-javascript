@@ -201,7 +201,7 @@ Estudando padrões de projeto, não é incomum depararmos com o termo "proto-pad
 
 Alternativamente, o(s) indivíduo(s) que compartilham o padrão podem não ter tempo ou interesse em ingressar no processo de "padronização" e soltam uma pequena descrição de seu proto-padrão ao invés disso. Breves descrições ou fragmentos deste padrão são conhecidos como 'patlets'.
 
-O trabalho envolvido em uma documentação completad para qualificação de um padrão pode ser muito assustador. Olhando para alguns dos mais recentes trabalhos no campo dos padrões de projeto, um padrão pode ser considerado "bom" se seguir as seguintes condições:
+O trabalho envolvido em uma documentação completa para qualificação de um padrão pode ser muito assustador. Olhando para alguns dos mais recentes trabalhos no campo dos padrões de projeto, um padrão pode ser considerado "bom" se seguir as seguintes condições:
 
 **Resolva um problema em particular:** Padrões não devem apenas capturar princípios ou estratégias. Eles precisam de capturar soluções. Este é um dos mais essenciais ingredientes para um bom padrão.
 **A solução para esse padrão não deve ser óbvia:** Podemos achar que as técnicas de resolução de problemas frequentemente tentam derivar os mesmos para uma solução baseada em um conhecimento inicial. Os melhores padrões de projeto usualmente fornecem soluções para os problemas indiretamente - isto é considerado uma abordagem necessária para os maiores problemas relacionados aos padrões.
@@ -249,7 +249,7 @@ Embora este livro destina-se aos novos padrões de projeto, um entendimento bás
 
 Escrever bons padrões é uma tarefa desafiadora. Padrões não precisam somente de (idealmente) fornecer uma quantia substancial de referências para os usuários finais, eles também precisam ser capazes de defender porque são necessários.
 
-Tendo lido a seção anterior sobre o quê um padrão é, nós podemos pensar que isso por si só é o suficiente para nos ajudar a identificar os padrões que vemos no dia a dia. Isso não é completamente verdade. Não está sempre claro se um pedaçõ de código que estamos olhando está seguindo um padrão ou acidentalmente se parece com o que ele faz.
+Tendo lido a seção anterior sobre o quê um padrão é, nós podemos pensar que isso por si só é o suficiente para nos ajudar a identificar os padrões que vemos no dia a dia. Isso não é completamente verdade. Não está sempre claro se um pedaço de código que estamos olhando está seguindo um padrão ou acidentalmente se parece com o que ele faz.
 
 Quando nós olhamos para um corpo de códgo nós pensamos que podemos usar um padrão, nós precisamos considerar escrever do início alguns dos aspectos do código que acreditamos falhar em uma particularidade existente do padrão ou conjunto de padrões.
 
@@ -286,7 +286,7 @@ Neste tópico, Alexander escreve sobre as dificuldades de alcançar um bom balan
 
 > Estas notas são sobre os processos de projeto; o processo de inventar coisas físicas que mostram uma nova ordem física, organização, forma, em resposta à função... todo problema do projeto começa com um esforço para conseguir a aptidão entre duas entidades: a forma em questão e o contexto. A forma é a solução do problema; o contexto define o problema.
 
-Embora seja muit importante estar ciente de padrões de projeto, pode ser igualmente importante entender de anti-padrões. Vamos qualificar a razão por trás disso. Quando criamos uma aplicação, um ciclo de vida de um projeto começa com a construção, no entanto uma vez que você tem a versão inicial feita, ela precisa ser mantida. A qualidade de uma solução final vai ser boa ou ruim, dependendo do nível de habilidade e o tempo que o time investiu nesta. Aqui *bom* e *ruim* são considerados no contexto - um projeto "perfeito" deve qualificar como um anti-padrão se aplicado no contexto errado.
+Embora seja muito importante estar ciente de padrões de projeto, pode ser igualmente importante entender de anti-padrões. Vamos qualificar a razão por trás disso. Quando criamos uma aplicação, um ciclo de vida de um projeto começa com a construção, no entanto uma vez que você tem a versão inicial feita, ela precisa ser mantida. A qualidade de uma solução final vai ser boa ou ruim, dependendo do nível de habilidade e o tempo que o time investiu nesta. Aqui *bom* e *ruim* são considerados no contexto - um projeto "perfeito" deve qualificar como um anti-padrão se aplicado no contexto errado.
 
 Os maiores desafios acontecem depois que uma aplicação atingiu a produção e está pronta para entrar em modo de manutenção. Um desenvolvedor trabalhando em um sistema desse tipo, que não trabalhou no aplicativo antes pode introduzir uma solução ruim para este projeto por acidente. Se *más* práticas forem criadas como anti-padrões, elas permitem aos desenvolvedores uma maneira de reconhecê-las com antecedência, para que possam evitar os erros mais comuns que possam aparecer - está uma forma paralela na qual os padrões de projeto nos fornecem um meio para reconhecer técnicas comuns que são úteis.
 
