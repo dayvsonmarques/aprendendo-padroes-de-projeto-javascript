@@ -559,10 +559,10 @@ Como vamos ver depois neste livro, estes métodos podem ser usado para herança,
 // Cria um piloto de corrida de carro que herda do objeto person
 var driver = Object.create( person );
 
-// Configura algumas proprieadades para o piloto
+// Configura algumas propriedades para o piloto
 defineProp( driver, "topSpeed", "100mph" );
 
-// Pega uma propriedade heradada (1981)
+// Pega uma propriedade herdada (1981)
 console.log( driver.dateOfBirth );
 
 // Pega a propriedade que nós configuramos (100mph)
@@ -601,7 +601,7 @@ console.log( mondeo.toString() );
 
 O código acima é uma simples versão do padrão construtor mas ele sofre com alguns problemas. Um é que ele torna a herança difícil e o outro é que as funções como `toString()` são redefinidas para cada um dos novos objetos criados usando o construtor Car. Isto não é muito otimizado como a função idealmente deve ser compartilhando entre todos os suas instâncias do tipo Car.
 
-Agradecidamente temos um número de alternativas compatǘeis com ambos ES3 e ES5 para construir objetos, é um trabalho trivial contornar esta limitação.
+Agradecidamente temos um número de alternativas compativeis com ambos ES3 e ES5 para construir objetos, é um trabalho trivial contornar esta limitação.
 
 ### Construtores com Protótipos
 
@@ -744,7 +744,7 @@ A partir de uma perspectiva histórica, o Padrão Modular foi originalmente dese
 
 ### Exemplos
 
-Vamos conversar a olhar sobre uma implementação de Padrão Modular criando um módulo que é auto-contido.
+Vamos começar a olhar sobre uma implementação de Padrão Modular criando um módulo que é auto-contido.
 
 ```javascript
 var testModule = (function () {
