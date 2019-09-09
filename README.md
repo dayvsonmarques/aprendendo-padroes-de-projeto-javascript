@@ -304,7 +304,7 @@ Conhecer os anti-padrões é crítico para o sucesso. Uma vez que estivermos apt
 
 Um glossário do livro conhecido de projetos, *Domain-Driven Terms*, afirma com razão que:
 
-> Um padrão de projeto nomeia, abstra e identifica os aspectos de uma comum estrutura de projeto que faz isto útil para criação e reutilização de projetos orientados a objeto. O padrão de projeto identifica as classes participantes e suas instâncias, suas funções e colaborações, e a distribuição de responsabilidades.
+> Um padrão de projeto nomeia, abstrai e identifica os aspectos de uma estrutura comum de projeto que faz isto útil para criação e reutilização de projetos orientados a objetos. O padrão de projeto identifica as classes participantes e suas instâncias, suas funções e colaborações, e a distribuição de responsabilidades.
 
 > Cada padrão de projeto foca em um problema ou questão particular de projetos orientados a objetos. Ele descreve quando se aplica, ou não pode ser aplicado em vista de outras restrições de projeto, e as consequências e os compromissos de se usá-lo. Desde que nós eventualmente implementemos nossos padrões, um padrão de projeto também fornece código de exemplo para ilustrar uma implementação.
 
@@ -314,7 +314,7 @@ Padrões de projeto pode ser divididos em um número de diferentes categorias. N
 
 ## Padrões de projetos Criacionais
 
-Padrões de projetos Criacionais focam em lidar com os mecanismos de criação de objetos onde os objetos são criados de maneira adequada para a situação que estamos trabalhando. A abordagem básica para criação de objeto pode legar a adicionar complexidade ao projeto, enquanto esses padrões têm como objetivo resolver problemas através do controle do processo de criação.
+Padrões de projetos Criacionais focam em lidar com os mecanismos de criação de objetos onde os objetos são criados de maneira adequada para a situação que estamos trabalhando. A abordagem básica para criação de objeto pode chegar a adicionar uma complexidade ao projeto, enquanto esses padrões têm como objetivo resolver problemas através do controle do processo de criação.
 
 Alguns padrões que se encaixam nesta categoria são: Constructor, Factory, Abstract, Prototype, Singleton e Builder.
 
